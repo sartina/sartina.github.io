@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+}
+
+p {
+    text-align: justify !important;
+    padding: 2px;
+}
+
+ul.publications {
+    list-style: none;
+    padding: 2px;
+    font-size: 0.9em;
+}
+
+ul.publications li {
+    margin-bottom: 1em;
+}
+
+img.me {
+    /* align picture with first paragraph */
+    margin-top: 70px;
+}
+
+pre.bibtex {
+    margin:5px 0 0 0;
+    padding:0;
+    font-size: 0.8em;
+    border-style: none;
+}

@@ -1,0 +1,27 @@
+The following data is available upon request:
+
+* Samples of the training and the test dataset.
+  - The training dataset consists of 185 samples collected and analyzed in August 2010.
+  - The test dataset consists of 1,686 samples collected and analyzed between December 2010 and March 2011. 
+* Analysis reports for the training and test dataset (from executions in 4 different sandboxes, 3 executions in each sandbox)
+* Filesystem and registry dumps of the Windows installations used in the evaluation sandboxes
+* Evasion scores for all samples ([0,1] with 1 being the highest possible score), for example:
+
+    # Sample MD5: evasion_score = max. evasion score from all possible sandbox pairs
+    01edde7cb18a9b94d0e9a9099222145f: evasion_score = 0.96
+    # Sandbox ID   [distances between executions] --> max_diameter = max. distance between all executions in the same sandbox
+    anubis         [0.00 0.00 0.00 ] --> max_diameter = 0.00
+    admin          [0.03 0.01 0.03 ] --> max_diameter = 0.03
+    user           [0.03 0.03 0.03 ] --> max_diameter = 0.03
+    german         [0.01 0.05 0.04 ] --> max_diameter = 0.05
+
+    # Sandbox Pair [distances between executions] --> max_distance = max. distances between executions in different sandboxes, evasion score for sandbox pair
+    anubis-admin   [0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 ] --> max_distance = 0.99, evasion_score = 0.96
+    anubis-user    [0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 ] --> max_distance = 0.99, evasion_score = 0.96
+    anubis-german  [0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 ] --> max_distance = 0.99, evasion_score = 0.94
+    admin-user     [0.80 0.80 0.80 0.80 0.81 0.80 0.80 0.80 0.79 ] --> max_distance = 0.81, evasion_score = 0.78
+    admin-german   [0.79 0.79 0.80 0.80 0.80 0.79 0.80 0.80 0.80 ] --> max_distance = 0.80, evasion_score = 0.75
+    user-german    [0.79 0.79 0.80 0.79 0.79 0.80 0.80 0.80 0.80 ] --> max_distance = 0.80, evasion_score = 0.75
+
+Contact: mlindorfer (at) iseclab (dot) org 
+
