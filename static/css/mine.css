@@ -28,3 +28,9 @@ pre.bibtex {
     font-size: 0.8em;
     border-style: none;
 }
+a:hover {
+    color: #B40431;
+}
+a { 
+    color: #DF013A;
+}
