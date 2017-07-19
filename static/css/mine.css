@@ -34,3 +34,12 @@ a:hover {
 a { 
     color: #DF013A;
 }
+h1,.h2{
+  font-size: 36px;
+}
+h2,.h2 {
+  font-size: 22px;
+}
+table, tr, td {
+    border: none;
+}
