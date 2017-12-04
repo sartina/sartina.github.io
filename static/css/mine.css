@@ -26,13 +26,7 @@ pre.bibtex {
     margin:5px 0 0 0;
     padding:0;
     font-size: 0.8em;
-    display: inline-flex;
     border-style: none;
-    white-space: pre;
-    overflow: scroll;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
 }
 a:hover {
     color: #B40431;
