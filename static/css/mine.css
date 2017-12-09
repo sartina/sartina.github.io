@@ -13,8 +13,17 @@ ul.publications {
     font-size: 0.9em;
 }
 
+ul.publications li:nth-child(odd) {
+  background-color: #F8F8F8;
+}
+
+strong.papertitle {
+    font-size: 1em;
+}
+
 ul.publications li {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    padding: 5px;
 }
 
 img.me {
@@ -24,16 +33,24 @@ img.me {
 
 pre.bibtex {
     margin:5px 0 0 0;
-    padding:0;
+    padding: 2px;
     font-size: 0.8em;
     border-style: none;
+    white-space: pre-wrap;
+    display: block;
+    overflow: auto;
+    word-wrap: normal;
+    background-color: initial;
 }
-a:hover {
+
+
+a:hover, a:focus{
     color: #B40431;
 }
 a { 
     color: #DF013A;
 }
+
 h1,.h2{
   font-size: 36px;
 }
