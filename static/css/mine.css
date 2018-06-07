@@ -15,6 +15,12 @@ ul.publications {
 
 ul.publications li:nth-child(odd) {
   background-color: #F8F8F8;
+  padding-left: 1em;
+}
+
+ul.publications li:nth-child(even) {
+  background-color: #F8F8F8;
+  padding-left: 1em;
 }
 
 strong.papertitle {
@@ -23,7 +29,7 @@ strong.papertitle {
 }
 
 ul.publications li {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     padding: 5px;
 }
 
@@ -48,7 +54,17 @@ a:hover, a:focus{
     color: #B40431;
 }
 a { 
-    color: #DF013A;
+    color: #DF013A;    
+}
+
+a.icons {
+    color: #000000;    
+    text-decoration: none;
+}
+
+a.icons:hover, a.icons:focus {
+    color: #B40431;  
+    text-decoration: none;
 }
 
 h1,.h2{
