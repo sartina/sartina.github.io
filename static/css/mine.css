@@ -26,7 +26,7 @@ ul.publications li:nth-child(even) {
 strong.papertitle {
     font-size: 1.1em; 
     /*background-color: #fadbd8 ;*/
-    color: #DF013A;  
+    /*color: #DF013A;  */
 }
 
 ul.publications li {
