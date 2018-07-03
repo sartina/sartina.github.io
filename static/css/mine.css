@@ -44,11 +44,12 @@ pre.bibtex {
     padding: 2px;
     font-size: 0.9em;
     border-style: none;
-    white-space: pre-wrap;
     display: block;
     overflow: auto;
+    white-space: pre; 
+    word-break: normal;
     word-wrap: normal;
-    background-color: initial;
+    background-color: initial; 
 }
 
 a:hover, a:focus{
