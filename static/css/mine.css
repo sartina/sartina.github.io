@@ -24,8 +24,9 @@ ul.publications li:nth-child(even) {
 }
 
 strong.papertitle {
-    font-size: 1.1em;
+    font-size: 1.1em; 
     /*background-color: #fadbd8 ;*/
+    color: #DF013A;  
 }
 
 ul.publications li {
@@ -53,6 +54,7 @@ pre.bibtex {
 a:hover, a:focus{
     color: #B40431;
 }
+
 a { 
     color: #DF013A;    
 }
@@ -67,16 +69,25 @@ a.icons:hover, a.icons:focus {
     text-decoration: none;
 }
 
+a.medialink {
+    text-decoration: none;
+}
+
 h1,.h2{
   font-size: 36px;
 }
+
 h2,.h2 {
   font-size: 22px;
   margin-top:22px;
 }
+
 table, tr, td {
     border: none;
 }
 
+span.award {
+    color = deeppink;
+}
 
 
