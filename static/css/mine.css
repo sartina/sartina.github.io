@@ -35,8 +35,9 @@ ul.publications li {
 }
 
 img.me {
-    /* align picture with first paragraph */
-    margin-top: 70px;
+    margin-top: 20px;
+    border: 0px;   
+    border-radius: 5px;
 }
 
 pre.bibtex {
