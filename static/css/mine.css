@@ -57,10 +57,6 @@ pre.bibtex {
     background-color: initial; 
 }
 
-span.award {
-    color: #E4007C;
-}
-
 a:hover, a:focus{
     color: #B40431;
 }
