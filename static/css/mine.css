@@ -57,6 +57,10 @@ pre.bibtex {
     background-color: initial; 
 }
 
+span.award {
+    color: #E4007C;
+}
+
 a:hover, a:focus{
     color: #B40431;
 }
@@ -92,8 +96,5 @@ table, tr, td {
     border: none;
 }
 
-span.award {
-    color = deeppink;
-}
 
 
