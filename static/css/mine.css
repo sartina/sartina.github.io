@@ -14,7 +14,7 @@ ul.publications {
 }
 
 ul.publications li:nth-child(odd) {
-  background-color: #F8F8F8;
+  background-color: #F2F2F2;
   padding-left: 1em;
 }
 
@@ -35,9 +35,13 @@ ul.publications li {
 }
 
 img.me {
-    margin-top: 20px;
-    border: 0px;   
+    /*margin-top: 20px;*/
+    /*border: 0px;  */
+    /*border-radius: 5px; */
+    margin-top: 62px;
     border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 0px;
 }
 
 pre.bibtex {
